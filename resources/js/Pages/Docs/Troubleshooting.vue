@@ -1,7 +1,7 @@
 <template>
   <DocsLayout page-title="Troubleshooting" current-slug="troubleshooting">
     <div class="prose prose-sm max-w-none">
-      <h1 class="text-4xl font-bold mb-6">🔧 Troubleshooting</h1>
+      <h1 class="text-4xl font-bold mb-6">Troubleshooting</h1>
 
       <div class="space-y-4">
         <Accordion title="Command Not Found">

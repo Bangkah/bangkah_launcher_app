@@ -1,7 +1,7 @@
 <template>
   <DocsLayout page-title="Deployment" current-slug="deployment">
     <div class="prose prose-sm max-w-none">
-      <h1 class="text-4xl font-bold mb-6">🚀 Deployment</h1>
+      <h1 class="text-4xl font-bold mb-6">Deployment</h1>
 
       <h2 class="text-2xl font-bold mb-4">Pre-Deployment Checklist</h2>
 
@@ -58,7 +58,7 @@ certbot --nginx -d yourdomain.com" />
       </div>
 
       <div class="bg-green-50 border border-green-200 rounded-lg p-4">
-        <p class="font-semibold text-green-900 mb-2">💡 Pro Tip</p>
+        <p class="font-semibold text-green-900 mb-2"> Pro Tip</p>
         <p class="text-gray-700">Use Laravel Forge for automatic deployments, SSL management, and monitoring.</p>
       </div>
     </div>

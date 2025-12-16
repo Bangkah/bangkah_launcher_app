@@ -1,11 +1,11 @@
 <template>
   <DocsLayout page-title="Usage" current-slug="usage">
     <div class="space-y-6">
-      <h1 class="text-4xl font-bold text-gray-900">📖 Usage Guide</h1>
+      <h1 class="text-4xl font-bold text-gray-900">Usage Guide</h1>
 
       <!-- Interactive Mode Section -->
       <section>
-        <h2 class="text-2xl font-bold mb-4 text-gray-900">🎯 Interactive Mode</h2>
+        <h2 class="text-2xl font-bold mb-4 text-gray-900"> Interactive Mode</h2>
         
         <p class="text-gray-700 mb-4">Mode paling mudah - Bangkah akan menanyakan semua pilihan interactively:</p>
 
@@ -15,7 +15,7 @@
 
         <div class="bg-gray-900 text-gray-100 p-6 rounded-lg mb-6 overflow-x-auto">
           <pre class="text-sm"><code>┌──────────────────────────────────────────┐
-│  🎯 Bangkah Starter Kit                  │
+│   Bangkah Starter Kit                  │
 └──────────────────────────────────────────┘
 
 ❯ Pilih template project:
@@ -62,7 +62,7 @@
 
       <!-- Non-Interactive Mode Section -->
       <section>
-        <h2 class="text-2xl font-bold mb-4 text-gray-900">⚡ Non-Interactive Mode</h2>
+        <h2 class="text-2xl font-bold mb-4 text-gray-900"> Non-Interactive Mode</h2>
         
         <p class="text-gray-700 mb-4">Untuk CI/CD atau automation, gunakan flags untuk skip prompts:</p>
 
@@ -94,7 +94,7 @@
 
       <!-- Command Options Section -->
       <section>
-        <h2 class="text-2xl font-bold mb-4 text-gray-900">🔧 Command Options</h2>
+        <h2 class="text-2xl font-bold mb-4 text-gray-900"> Command Options</h2>
 
         <div class="overflow-x-auto mb-6">
           <table class="w-full text-sm border-collapse">
@@ -168,7 +168,7 @@
 
       <!-- Output Files Section -->
       <section>
-        <h2 class="text-2xl font-bold mb-4 text-gray-900">📁 Generated Files</h2>
+        <h2 class="text-2xl font-bold mb-4 text-gray-900"> Generated Files</h2>
 
         <h3 class="text-lg font-bold mb-3 text-gray-900">Infrastructure Files</h3>
 
@@ -266,7 +266,7 @@ npm run build" language="bash" />
 
       <!-- Next Steps -->
       <section class="bg-gradient-to-r from-blue-50 to-purple-50 border border-blue-200 rounded-lg p-6">
-        <h2 class="text-2xl font-bold mb-4 text-gray-900">📚 Next Steps</h2>
+        <h2 class="text-2xl font-bold mb-4 text-gray-900"> Next Steps</h2>
         <ol class="space-y-3 text-gray-700">
           <li class="flex gap-3"><span class="font-bold text-blue-600">1.</span> <a href="/docs/quick-start" class="text-blue-600 hover:underline">Quick Start</a> untuk setup 30 detik</li>
           <li class="flex gap-3"><span class="font-bold text-blue-600">2.</span> <a href="/docs/examples" class="text-blue-600 hover:underline">Explore Examples</a> untuk berbagai use cases</li>

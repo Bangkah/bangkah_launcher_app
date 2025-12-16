@@ -18,27 +18,27 @@
           <p class="text-gray-600 text-sm">Setup 2–3 menit, biasanya butuh 30-60 menit</p>
         </div>
         <div class="p-4 border rounded-lg hover:shadow-lg transition-all duration-300 hover:scale-105">
-          <div class="text-3xl mb-2">🎯</div>
+          <div class="text-3xl mb-2"></div>
           <h3 class="font-semibold mb-2">Best Practices</h3>
           <p class="text-gray-600 text-sm">Mengikuti konvensi Laravel & standards industri</p>
         </div>
         <div class="p-4 border rounded-lg hover:shadow-lg transition-all duration-300 hover:scale-105">
-          <div class="text-3xl mb-2">🔧</div>
+          <div class="text-3xl mb-2"></div>
           <h3 class="font-semibold mb-2">Fleksibel</h3>
           <p class="text-gray-600 text-sm">CLI interaktif, customize sesuai kebutuhan</p>
         </div>
         <div class="p-4 border rounded-lg hover:shadow-lg transition-all duration-300 hover:scale-105">
-          <div class="text-3xl mb-2">📦</div>
+          <div class="text-3xl mb-2"></div>
           <h3 class="font-semibold mb-2">Siap Produksi</h3>
           <p class="text-gray-600 text-sm">Konfigurasi Docker optimal untuk production</p>
         </div>
         <div class="p-4 border rounded-lg hover:shadow-lg transition-all duration-300 hover:scale-105">
-          <div class="text-3xl mb-2">🚀</div>
+          <div class="text-3xl mb-2"></div>
           <h3 class="font-semibold mb-2">Modern Stack</h3>
           <p class="text-gray-600 text-sm">Laravel 12.x dengan fitur terbaru</p>
         </div>
         <div class="p-4 border rounded-lg hover:shadow-lg transition-all duration-300 hover:scale-105">
-          <div class="text-3xl mb-2">🎨</div>
+          <div class="text-3xl mb-2"></div>
           <h3 class="font-semibold mb-2">Frontend Agnostic</h3>
           <p class="text-gray-600 text-sm">Tailwind, Bootstrap, atau headless API</p>
         </div>

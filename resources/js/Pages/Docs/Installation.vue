@@ -1,7 +1,7 @@
 <template>
   <DocsLayout page-title="Installation" current-slug="installation">
     <div class="prose prose-sm max-w-none space-y-6">
-      <h1 class="text-4xl font-bold mb-6 text-gray-900">📦 Installation</h1>
+      <h1 class="text-4xl font-bold mb-6 text-gray-900">Installation</h1>
 
       <!-- Warning Box -->
       <div class="mb-8 p-6 bg-amber-50 border-l-4 border-amber-500 rounded-r-lg">
@@ -21,7 +21,7 @@
 
         <div class="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-4 mt-4">
           <p class="text-sm text-gray-700">
-            <strong>💡 Tips:</strong> Method ini adalah yang paling direkomendasikan karena memberikan setup yang clean dan optimal.
+            <strong> Tips:</strong> Method ini adalah yang paling direkomendasikan karena memberikan setup yang clean dan optimal.
           </p>
         </div>
       </section>
@@ -59,7 +59,7 @@
         <div class="space-y-3">
           <div class="border rounded-lg p-4 hover:shadow-md transition">
             <div class="flex items-start gap-3">
-              <span class="text-xl">📋</span>
+              <span class="text-xl"></span>
               <div>
                 <h3 class="font-semibold text-gray-900">PHP 8.2+</h3>
                 <p class="text-sm text-gray-600">Required untuk Laravel 12.x</p>
@@ -69,7 +69,7 @@
           
           <div class="border rounded-lg p-4 hover:shadow-md transition">
             <div class="flex items-start gap-3">
-              <span class="text-xl">📦</span>
+              <span class="text-xl"></span>
               <div>
                 <h3 class="font-semibold text-gray-900">Composer 2.0+</h3>
                 <p class="text-sm text-gray-600">PHP dependency manager</p>
@@ -79,7 +79,7 @@
 
           <div class="border rounded-lg p-4 hover:shadow-md transition">
             <div class="flex items-start gap-3">
-              <span class="text-xl">🚀</span>
+              <span class="text-xl"></span>
               <div>
                 <h3 class="font-semibold text-gray-900">Node.js 18+ atau 20+ LTS</h3>
                 <p class="text-sm text-gray-600">Untuk frontend assets</p>
@@ -89,7 +89,7 @@
 
           <div class="border rounded-lg p-4 hover:shadow-md transition">
             <div class="flex items-start gap-3">
-              <span class="text-xl">📝</span>
+              <span class="text-xl"></span>
               <div>
                 <h3 class="font-semibold text-gray-900">NPM 9+</h3>
                 <p class="text-sm text-gray-600">Node package manager</p>
@@ -99,7 +99,7 @@
 
           <div class="border rounded-lg p-4 hover:shadow-md transition">
             <div class="flex items-start gap-3">
-              <span class="text-xl">🐳</span>
+              <span class="text-xl"></span>
               <div>
                 <h3 class="font-semibold text-gray-900">Docker 20+ (Optional)</h3>
                 <p class="text-sm text-gray-600">Hanya jika Anda ingin menggunakan containerization</p>
@@ -109,7 +109,7 @@
 
           <div class="border rounded-lg p-4 hover:shadow-md transition">
             <div class="flex items-start gap-3">
-              <span class="text-xl">🔧</span>
+              <span class="text-xl"></span>
               <div>
                 <h3 class="font-semibold text-gray-900">Git 2.x+ (Recommended)</h3>
                 <p class="text-sm text-gray-600">Untuk version control</p>
@@ -125,7 +125,7 @@
 
         <div class="grid md:grid-cols-2 gap-4">
           <div class="bg-gradient-to-br from-orange-50 to-orange-100 border border-orange-200 rounded-lg p-6">
-            <h3 class="font-bold text-orange-900 mb-3">⚙️ Minimum</h3>
+            <h3 class="font-bold text-orange-900 mb-3"> Minimum</h3>
             <ul class="space-y-2 text-sm text-gray-700">
               <li class="flex gap-2"><span>•</span> 2 CPU cores</li>
               <li class="flex gap-2"><span>•</span> 2GB RAM</li>
@@ -134,7 +134,7 @@
           </div>
 
           <div class="bg-gradient-to-br from-green-50 to-green-100 border border-green-200 rounded-lg p-6">
-            <h3 class="font-bold text-green-900 mb-3">🚀 Recommended</h3>
+            <h3 class="font-bold text-green-900 mb-3"> Recommended</h3>
             <ul class="space-y-2 text-sm text-gray-700">
               <li class="flex gap-2"><span>•</span> 4+ CPU cores</li>
               <li class="flex gap-2"><span>•</span> 4GB+ RAM</li>
@@ -187,7 +187,7 @@ npm --version" language="bash" />
 
       <!-- Next Steps -->
       <section class="bg-gradient-to-r from-blue-50 to-purple-50 border border-blue-200 rounded-lg p-6">
-        <h2 class="text-2xl font-bold mb-4 text-gray-900">📚 Next Steps</h2>
+        <h2 class="text-2xl font-bold mb-4 text-gray-900">Next Steps</h2>
         <ol class="space-y-3 text-gray-700">
           <li class="flex gap-3"><span class="font-bold text-blue-600">1.</span> Baca <a href="/docs/quick-start" class="text-blue-600 hover:underline">Quick Start</a> untuk setup cepat</li>
           <li class="flex gap-3"><span class="font-bold text-blue-600">2.</span> Lihat <a href="/docs/usage" class="text-blue-600 hover:underline">Usage Guide</a> untuk interactive prompts</li>

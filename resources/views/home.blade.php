@@ -108,17 +108,17 @@
 </head>
 <body>
     <div class="container">
-        <div class="logo">🚀</div>
+        <div class="logo"></div>
         <h1>Welcome to {{ config('app.name') }}</h1>
         <p class="subtitle">Your Laravel project is ready. Start building something amazing!</p>
         
         <div class="features">
             <div class="feature">
-                <h3>⚡ Fast Setup</h3>
+                <h3> Fast Setup</h3>
                 <p>Bangkah starter kit configured and ready</p>
             </div>
             <div class="feature">
-                <h3>🎨 Modern Stack</h3>
+                <h3> Modern Stack</h3>
                 <p>Laravel 12 with Vite & Tailwind</p>
             </div>
             <div class="feature">

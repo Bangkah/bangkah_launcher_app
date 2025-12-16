@@ -1,7 +1,7 @@
 <template>
   <DocsLayout page-title="Requirements" current-slug="requirements">
     <div class="prose prose-sm max-w-none">
-      <h1 class="text-4xl font-bold mb-6">📋 Requirements</h1>
+      <h1 class="text-4xl font-bold mb-6">Requirements</h1>
 
       <h2 class="text-2xl font-bold mb-4">Software Requirements</h2>
 
@@ -58,7 +58,7 @@
 
       <div class="grid md:grid-cols-2 gap-4 mb-8">
         <div class="border-l-4 border-orange-500 bg-orange-50 p-6 rounded-r-lg">
-          <h3 class="font-bold text-orange-900 mb-3">⚙️ Minimum</h3>
+          <h3 class="font-bold text-orange-900 mb-3"> Minimum</h3>
           <ul class="space-y-2 text-sm ml-4">
             <li>• 2 CPU cores</li>
             <li>• 2GB RAM</li>
@@ -67,7 +67,7 @@
         </div>
 
         <div class="border-l-4 border-green-500 bg-green-50 p-6 rounded-r-lg">
-          <h3 class="font-bold text-green-900 mb-3">🚀 Recommended</h3>
+          <h3 class="font-bold text-green-900 mb-3"> Recommended</h3>
           <ul class="space-y-2 text-sm ml-4">
             <li>• 4+ CPU cores</li>
             <li>• 4GB+ RAM</li>
@@ -77,7 +77,7 @@
       </div>
 
       <div class="bg-blue-50 border-l-4 border-blue-500 rounded-r-lg p-6">
-        <h3 class="font-bold text-blue-900 mb-2">💡 Pro Tip</h3>
+        <h3 class="font-bold text-blue-900 mb-2"> Pro Tip</h3>
         <p class="text-gray-700">
           Check versions installed di system Anda:
         </p>

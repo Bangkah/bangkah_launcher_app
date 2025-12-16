@@ -10,6 +10,26 @@
             </svg>
           </button>
           <a href="/" class="flex items-center gap-2 font-bold text-xl text-gray-900 hover:text-blue-600 transition">
+            <!-- Logo SVG -->
+            <svg class="w-8 h-8" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="19" stroke="url(#grad1)" stroke-width="2"/>
+              <g transform="translate(20, 20)">
+                <rect x="-3" y="-8" width="2" height="12" fill="url(#grad2)" rx="1"/>
+                <rect x="1" y="-4" width="2" height="12" fill="url(#grad2)" rx="1"/>
+                <rect x="-6" y="-7" width="14" height="2" fill="url(#grad2)" rx="1"/>
+                <path d="M 8 -7 L 10 -5 L 7 -2" fill="url(#grad2)"/>
+              </g>
+              <defs>
+                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+                  <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+                </linearGradient>
+                <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+                  <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+                </linearGradient>
+              </defs>
+            </svg>
             <span>Bangkah</span>
           </a>
         </div>

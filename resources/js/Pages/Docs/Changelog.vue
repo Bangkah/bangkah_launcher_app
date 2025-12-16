@@ -1,7 +1,7 @@
 <template>
   <DocsLayout page-title="Changelog" current-slug="changelog">
     <div class="prose prose-sm max-w-none">
-      <h1 class="text-4xl font-bold mb-6">📝 Changelog</h1>
+      <h1 class="text-4xl font-bold mb-6">Changelog</h1>
 
       <p class="text-gray-600 mb-8">Catatan lengkap semua perubahan dan improvement di setiap versi Bangkah.</p>
 
@@ -12,10 +12,10 @@
           <span class="text-sm text-green-700">42 minutes ago</span>
         </div>
         
-        <p class="text-green-800 font-semibold mb-3">🎉 Deploy-Ready Docker + Publish Cleanup</p>
+        <p class="text-green-800 font-semibold mb-3"> Deploy-Ready Docker + Publish Cleanup</p>
         
         <div class="space-y-2 ml-4">
-          <h3 class="font-bold text-green-900 mt-4">✨ Features</h3>
+          <h3 class="font-bold text-green-900 mt-4"> Features</h3>
           <ul class="list-disc list-inside space-y-1 text-gray-700">
             <li>Optimized Docker image for production deployment</li>
             <li>Multi-stage Dockerfile build support</li>
@@ -23,7 +23,7 @@
             <li>Improved docker-compose.yml configuration</li>
           </ul>
 
-          <h3 class="font-bold text-green-900 mt-4">🔧 Changes</h3>
+          <h3 class="font-bold text-green-900 mt-4"> Changes</h3>
           <ul class="list-disc list-inside space-y-1 text-gray-700">
             <li>Removed local path repository overrides for clean release</li>
             <li>Updated Dockerfile for production optimization</li>
@@ -31,7 +31,7 @@
             <li>Enhanced docker-compose services configuration</li>
           </ul>
 
-          <h3 class="font-bold text-green-900 mt-4">🐛 Bug Fixes</h3>
+          <h3 class="font-bold text-green-900 mt-4"> Bug Fixes</h3>
           <ul class="list-disc list-inside space-y-1 text-gray-700">
             <li>Fixed Docker volume mounting issues</li>
             <li>Corrected environment variable handling in containers</li>
@@ -47,10 +47,10 @@
           <span class="text-sm text-blue-700">2 hours ago</span>
         </div>
         
-        <p class="text-blue-800 font-semibold mb-3">📚 Release Notes & Documentation Updates</p>
+        <p class="text-blue-800 font-semibold mb-3"> Release Notes & Documentation Updates</p>
         
         <div class="space-y-2 ml-4">
-          <h3 class="font-bold text-blue-900 mt-4">📖 Documentation</h3>
+          <h3 class="font-bold text-blue-900 mt-4"> Documentation</h3>
           <ul class="list-disc list-inside space-y-1 text-gray-700">
             <li>Added v1.0.2 release notes documentation</li>
             <li>Updated CHANGELOG with version history</li>
@@ -58,7 +58,7 @@
             <li>Added troubleshooting section for common issues</li>
           </ul>
 
-          <h3 class="font-bold text-blue-900 mt-4">✨ Improvements</h3>
+          <h3 class="font-bold text-blue-900 mt-4"> Improvements</h3>
           <ul class="list-disc list-inside space-y-1 text-gray-700">
             <li>Enhanced CLI command prompts</li>
             <li>Better error messages and feedback</li>
@@ -74,10 +74,10 @@
           <span class="text-sm text-purple-700">17 hours ago</span>
         </div>
         
-        <p class="text-purple-800 font-semibold mb-3">🐛 Bug Fixes & Stability Improvements</p>
+        <p class="text-purple-800 font-semibold mb-3"> Bug Fixes & Stability Improvements</p>
         
         <div class="space-y-2 ml-4">
-          <h3 class="font-bold text-purple-900 mt-4">🔧 Bug Fixes</h3>
+          <h3 class="font-bold text-purple-900 mt-4"> Bug Fixes</h3>
           <ul class="list-disc list-inside space-y-1 text-gray-700">
             <li>Fixed Docker network configuration issues</li>
             <li>Resolved database connection problems in containers</li>
@@ -85,7 +85,7 @@
             <li>Corrected Nginx routing configuration</li>
           </ul>
 
-          <h3 class="font-bold text-purple-900 mt-4">⚡ Performance</h3>
+          <h3 class="font-bold text-purple-900 mt-4"> Performance</h3>
           <ul class="list-disc list-inside space-y-1 text-gray-700">
             <li>Optimized Docker image size</li>
             <li>Improved Composer caching in Docker</li>
@@ -101,10 +101,10 @@
           <span class="text-sm text-orange-700">2025-12-15</span>
         </div>
         
-        <p class="text-orange-800 font-semibold mb-3">🎉 Initial Release - Bangkah Starter Kit</p>
+        <p class="text-orange-800 font-semibold mb-3"> Initial Release - Bangkah Starter Kit</p>
         
         <div class="space-y-2 ml-4">
-          <h3 class="font-bold text-orange-900 mt-4">✨ Initial Features</h3>
+          <h3 class="font-bold text-orange-900 mt-4"> Initial Features</h3>
           <ul class="list-disc list-inside space-y-1 text-gray-700">
             <li>Interactive CLI command for project scaffolding</li>
             <li>Web & API project templates</li>
@@ -117,7 +117,7 @@
             <li>Laravel 12 compatibility</li>
           </ul>
 
-          <h3 class="font-bold text-orange-900 mt-4">📚 Documentation</h3>
+          <h3 class="font-bold text-orange-900 mt-4"> Documentation</h3>
           <ul class="list-disc list-inside space-y-1 text-gray-700">
             <li>Complete README with usage guide</li>
             <li>Installation instructions</li>
@@ -127,7 +127,7 @@
             <li>Development setup guide</li>
           </ul>
 
-          <h3 class="font-bold text-orange-900 mt-4">🎯 Core Services</h3>
+          <h3 class="font-bold text-orange-900 mt-4"> Core Services</h3>
           <ul class="list-disc list-inside space-y-1 text-gray-700">
             <li>TemplateService - Template generation & installation</li>
             <li>DockerService - Docker configuration generation</li>
@@ -139,7 +139,7 @@
 
       <!-- Version Comparison -->
       <div class="mt-12 bg-gray-50 border rounded-lg p-6">
-        <h2 class="text-2xl font-bold mb-4">📊 Version Comparison</h2>
+        <h2 class="text-2xl font-bold mb-4"> Version Comparison</h2>
         
         <div class="overflow-x-auto">
           <table class="w-full text-sm">
@@ -202,13 +202,13 @@
 
       <!-- Release Schedule -->
       <div class="mt-8 bg-blue-50 border border-blue-200 rounded-lg p-6">
-        <h3 class="font-bold text-blue-900 mb-3">🗓️ Release Schedule</h3>
+        <h3 class="font-bold text-blue-900 mb-3"> Release Schedule</h3>
         <p class="text-gray-700 mb-4">Bangkah mengikuti semantic versioning (MAJOR.MINOR.PATCH):</p>
         
         <ul class="space-y-2 ml-4 text-gray-700">
-          <li>📅 <strong>Patch releases (1.0.x)</strong> - Bug fixes & minor improvements (every 1-2 weeks)</li>
-          <li>📅 <strong>Minor releases (1.x.0)</strong> - New features & enhancements (every month)</li>
-          <li>📅 <strong>Major releases (2.0.0)</strong> - Breaking changes & major rewrites (annually)</li>
+          <li> <strong>Patch releases (1.0.x)</strong> - Bug fixes & minor improvements (every 1-2 weeks)</li>
+          <li> <strong>Minor releases (1.x.0)</strong> - New features & enhancements (every month)</li>
+          <li> <strong>Major releases (2.0.0)</strong> - Breaking changes & major rewrites (annually)</li>
         </ul>
 
         <p class="text-sm text-gray-600 mt-4">Follow GitHub releases untuk update terbaru!</p>

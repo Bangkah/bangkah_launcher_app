@@ -1,7 +1,7 @@
 <template>
   <DocsLayout page-title="FAQ" current-slug="faq">
     <div class="prose prose-sm max-w-none">
-      <h1 class="text-4xl font-bold mb-6">❓ FAQ</h1>
+      <h1 class="text-4xl font-bold mb-6">FAQ</h1>
 
       <div class="space-y-4">
         <Accordion title="Perbedaan Bangkah dengan Laravel Breeze/Jetstream?">

@@ -7,7 +7,7 @@
           <!-- Left: Text Content -->
           <div class="space-y-6">
             <div class="space-y-2">
-              <p class="text-sm font-bold text-blue-600 uppercase tracking-wide">🎯 Bangkah Launcher</p>
+              <p class="text-sm font-bold text-blue-600 uppercase tracking-wide">Bangkah Launcher</p>
               <h1 class="text-5xl md:text-6xl font-bold leading-tight">
                 Laravel Starter Kit
               </h1>
@@ -22,13 +22,13 @@
                 href="/docs/about" 
                 class="px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:shadow-lg transition font-semibold"
               >
-                📚 Baca Dokumentasi
+                Baca Dokumentasi
               </a>
               <a 
                 href="/docs/quick-start" 
                 class="px-6 py-3 bg-white border-2 border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 transition font-semibold"
               >
-                ⚡ Quick Start
+                Quick Start
               </a>
               <a 
                 href="https://github.com/Bangkah/bangkah-launcher" 
@@ -67,7 +67,7 @@ php artisan bangkah:create</code></pre>
     <!-- Features Section -->
     <section class="py-16 md:py-24">
       <div class="max-w-7xl mx-auto px-4">
-        <h2 class="text-4xl font-bold mb-4 text-center">✨ Fitur Utama</h2>
+        <h2 class="text-4xl font-bold mb-4 text-center">Fitur Utama</h2>
         <p class="text-gray-600 text-center max-w-2xl mx-auto mb-12">
           Semua yang Anda butuhkan untuk memulai project Laravel production-ready
         </p>
@@ -75,7 +75,7 @@ php artisan bangkah:create</code></pre>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           <!-- Feature 1: Zero Configuration -->
           <a href="/docs/quick-start" class="group p-6 bg-white rounded-xl border border-gray-200 hover:border-blue-400 hover:shadow-lg transition">
-            <div class="text-3xl mb-3">🚀</div>
+            <div class="text-3xl mb-3 font-bold text-blue-600">→</div>
             <h3 class="font-bold text-lg mb-2 group-hover:text-blue-600 transition">Zero Configuration</h3>
             <p class="text-sm text-gray-600">
               Interactive CLI wizard yang memandu Anda step-by-step. Tidak perlu memorize flags!
@@ -84,7 +84,7 @@ php artisan bangkah:create</code></pre>
 
           <!-- Feature 2: Docker Ready -->
           <a href="/docs/docker" class="group p-6 bg-white rounded-xl border border-gray-200 hover:border-blue-400 hover:shadow-lg transition">
-            <div class="text-3xl mb-3">🐳</div>
+            <div class="text-3xl mb-3 font-bold text-blue-600">[*]</div>
             <h3 class="font-bold text-lg mb-2 group-hover:text-blue-600 transition">Docker Ready</h3>
             <p class="text-sm text-gray-600">
               Dockerfile + docker-compose.yml generated otomatis dengan PHP, Nginx, MySQL/PostgreSQL
@@ -93,7 +93,7 @@ php artisan bangkah:create</code></pre>
 
           <!-- Feature 3: Authentication -->
           <a href="/docs/authentication" class="group p-6 bg-white rounded-xl border border-gray-200 hover:border-blue-400 hover:shadow-lg transition">
-            <div class="text-3xl mb-3">🔐</div>
+            <div class="text-3xl mb-3 font-bold text-blue-600"></div>
             <h3 class="font-bold text-lg mb-2 group-hover:text-blue-600 transition">Auth Scaffolding</h3>
             <p class="text-sm text-gray-600">
               Pilih Laravel Breeze atau UI. Login, register, password reset semuanya siap pakai.
@@ -102,7 +102,7 @@ php artisan bangkah:create</code></pre>
 
           <!-- Feature 4: Frontend Flexibility -->
           <a href="/docs/frontend" class="group p-6 bg-white rounded-xl border border-gray-200 hover:border-blue-400 hover:shadow-lg transition">
-            <div class="text-3xl mb-3">🎨</div>
+            <div class="text-3xl mb-3"></div>
             <h3 class="font-bold text-lg mb-2 group-hover:text-blue-600 transition">Frontend Flexibility</h3>
             <p class="text-sm text-gray-600">
               Pilih Tailwind CSS, Bootstrap, atau headless API. Sesuai kebutuhan Anda.
@@ -111,7 +111,7 @@ php artisan bangkah:create</code></pre>
 
           <!-- Feature 5: Production Ready -->
           <a href="/docs/deployment" class="group p-6 bg-white rounded-xl border border-gray-200 hover:border-blue-400 hover:shadow-lg transition">
-            <div class="text-3xl mb-3">📦</div>
+            <div class="text-3xl mb-3"></div>
             <h3 class="font-bold text-lg mb-2 group-hover:text-blue-600 transition">Production Ready</h3>
             <p class="text-sm text-gray-600">
               Docker configs yang optimized untuk production. Deploy dengan confidence.
@@ -120,7 +120,7 @@ php artisan bangkah:create</code></pre>
 
           <!-- Feature 6: Modern Stack -->
           <a href="/docs/requirements" class="group p-6 bg-white rounded-xl border border-gray-200 hover:border-blue-400 hover:shadow-lg transition">
-            <div class="text-3xl mb-3">⚡</div>
+            <div class="text-3xl mb-3"></div>
             <h3 class="font-bold text-lg mb-2 group-hover:text-blue-600 transition">Modern Stack</h3>
             <p class="text-sm text-gray-600">
               Laravel 12.x, PHP 8.2+, Vite, Tailwind CSS. Latest dan terbaik.
@@ -133,7 +133,7 @@ php artisan bangkah:create</code></pre>
     <!-- Documentation Quick Links -->
     <section class="py-16 md:py-24 bg-gradient-to-r from-blue-50 to-purple-50">
       <div class="max-w-7xl mx-auto px-4">
-        <h2 class="text-4xl font-bold mb-4 text-center">📚 Dokumentasi Lengkap</h2>
+        <h2 class="text-4xl font-bold mb-4 text-center"> Dokumentasi Lengkap</h2>
         <p class="text-gray-600 text-center max-w-2xl mx-auto mb-12">
           Akses dokumentasi comprehensive untuk semua kebutuhan Anda
         </p>
@@ -141,7 +141,7 @@ php artisan bangkah:create</code></pre>
         <div class="grid md:grid-cols-4 gap-4">
           <!-- Getting Started -->
           <div class="space-y-3">
-            <h3 class="font-bold text-lg text-gray-900">🚀 Getting Started</h3>
+            <h3 class="font-bold text-lg text-gray-900">Getting Started</h3>
             <ul class="space-y-2">
               <li><a href="/docs/about" class="text-blue-600 hover:text-blue-700 transition">About Bangkah</a></li>
               <li><a href="/docs/features" class="text-blue-600 hover:text-blue-700 transition">Features</a></li>
@@ -153,7 +153,7 @@ php artisan bangkah:create</code></pre>
 
           <!-- Usage & Examples -->
           <div class="space-y-3">
-            <h3 class="font-bold text-lg text-gray-900">💡 Usage & Examples</h3>
+            <h3 class="font-bold text-lg text-gray-900">Usage & Examples</h3>
             <ul class="space-y-2">
               <li><a href="/docs/usage" class="text-blue-600 hover:text-blue-700 transition">Usage Guide</a></li>
               <li><a href="/docs/examples" class="text-blue-600 hover:text-blue-700 transition">Examples</a></li>
@@ -165,7 +165,7 @@ php artisan bangkah:create</code></pre>
 
           <!-- Configuration -->
           <div class="space-y-3">
-            <h3 class="font-bold text-lg text-gray-900">⚙️ Configuration</h3>
+            <h3 class="font-bold text-lg text-gray-900"> Configuration</h3>
             <ul class="space-y-2">
               <li><a href="/docs/authentication" class="text-blue-600 hover:text-blue-700 transition">Authentication</a></li>
               <li><a href="/docs/frontend" class="text-blue-600 hover:text-blue-700 transition">Frontend Assets</a></li>
@@ -177,7 +177,7 @@ php artisan bangkah:create</code></pre>
 
           <!-- Reference -->
           <div class="space-y-3">
-            <h3 class="font-bold text-lg text-gray-900">📖 Reference</h3>
+            <h3 class="font-bold text-lg text-gray-900">Reference</h3>
             <ul class="space-y-2">
               <li><a href="/docs/changelog" class="text-blue-600 hover:text-blue-700 transition">Changelog</a></li>
               <li><a href="/docs/api-documentation" class="text-blue-600 hover:text-blue-700 transition">API Docs</a></li>
@@ -202,13 +202,13 @@ php artisan bangkah:create</code></pre>
             href="/docs/about" 
             class="px-6 py-3 bg-white text-blue-600 rounded-lg hover:bg-gray-100 transition font-bold"
           >
-            📚 Dokumentasi Lengkap
+             Dokumentasi Lengkap
           </a>
           <a 
             href="/docs/quick-start" 
             class="px-6 py-3 border-2 border-white text-white rounded-lg hover:bg-white/10 transition font-bold"
           >
-            ⚡ Quick Start
+             Quick Start
           </a>
         </div>
       </div>

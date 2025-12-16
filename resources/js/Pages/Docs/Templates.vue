@@ -1,7 +1,7 @@
 <template>
   <DocsLayout page-title="Templates" current-slug="templates">
     <div class="prose prose-sm max-w-none">
-      <h1 class="text-4xl font-bold mb-6">📦 Templates</h1>
+      <h1 class="text-4xl font-bold mb-6">Templates</h1>
 
       <h2 class="text-2xl font-bold mb-4">Web Template</h2>
       
@@ -18,7 +18,7 @@
 
       <div class="grid md:grid-cols-2 gap-4 mb-8">
         <div class="border rounded-lg p-4 hover:shadow-lg transition-shadow">
-          <h3 class="font-bold mb-2">✨ Features</h3>
+          <h3 class="font-bold mb-2"> Features</h3>
           <ul class="space-y-1 text-sm ml-3">
             <li>• Modern gradient design</li>
             <li>• Fully responsive</li>
@@ -28,7 +28,7 @@
         </div>
 
         <div class="border rounded-lg p-4 hover:shadow-lg transition-shadow">
-          <h3 class="font-bold mb-2">💼 Use Cases</h3>
+          <h3 class="font-bold mb-2"> Use Cases</h3>
           <ul class="space-y-1 text-sm ml-3">
             <li>• E-commerce</li>
             <li>• Business sites</li>

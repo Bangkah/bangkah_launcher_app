@@ -1,11 +1,11 @@
 <template>
   <DocsLayout page-title="Quick Start" current-slug="quick-start">
     <div class="space-y-6">
-      <h1 class="text-4xl font-bold text-gray-900">⚡ Quick Start</h1>
+      <h1 class="text-4xl font-bold text-gray-900">Quick Start</h1>
 
       <!-- 30 Second Setup -->
       <section class="bg-gradient-to-r from-green-50 to-emerald-50 border border-green-200 rounded-lg p-6">
-        <h2 class="text-2xl font-bold mb-4 text-gray-900">🚀 30-Second Setup</h2>
+        <h2 class="text-2xl font-bold mb-4 text-gray-900">30-Second Setup</h2>
         <p class="text-gray-700 mb-4">Jalankan satu command dengan semua defaults yang perfect untuk mayoritas use case:</p>
         
         <CodeBlock :code="quickSetup" language="bash" />
@@ -25,7 +25,7 @@
 
       <!-- Start Containers -->
       <section>
-        <h2 class="text-2xl font-bold mb-4 text-gray-900">🐳 Start Docker Containers</h2>
+        <h2 class="text-2xl font-bold mb-4 text-gray-900">Start Docker Containers</h2>
         
         <CodeBlock code="docker compose up -d" language="bash" />
 
@@ -44,12 +44,12 @@
             <p class="text-sm text-gray-600">Production-grade setup dalam sekejap</p>
           </div>
           <div class="p-6 bg-white border rounded-lg hover:shadow-lg transition-shadow">
-            <div class="text-3xl mb-3">⚡</div>
+            <div class="text-3xl mb-3"></div>
             <h3 class="font-bold text-gray-900 mb-2">Dev Experience</h3>
             <p class="text-sm text-gray-600">Hot reload, auto-build, live updates</p>
           </div>
           <div class="p-6 bg-white border rounded-lg hover:shadow-lg transition-shadow">
-            <div class="text-3xl mb-3">🔧</div>
+            <div class="text-3xl mb-3"></div>
             <h3 class="font-bold text-gray-900 mb-2">Flexible</h3>
             <p class="text-sm text-gray-600">Customize sesuai kebutuhan kapan saja</p>
           </div>
@@ -58,13 +58,13 @@
 
       <!-- Alternative Setups -->
       <section>
-        <h2 class="text-2xl font-bold mb-4 text-gray-900">🔧 Alternative Setups</h2>
+        <h2 class="text-2xl font-bold mb-4 text-gray-900"> Alternative Setups</h2>
 
         <div class="space-y-3">
           <!-- API Setup -->
           <details class="border rounded-lg p-4 hover:shadow-md transition cursor-pointer">
             <summary class="font-bold text-gray-900 flex items-center gap-2">
-              <span>📱 RESTful API dengan PostgreSQL</span>
+              <span>RESTful API dengan PostgreSQL</span>
             </summary>
             <div class="mt-4 space-y-2">
               <CodeBlock :code="apiSetup" language="bash" />
@@ -74,7 +74,7 @@
           <!-- Bootstrap Setup -->
           <details class="border rounded-lg p-4 hover:shadow-md transition cursor-pointer">
             <summary class="font-bold text-gray-900 flex items-center gap-2">
-              <span>🎨 Bootstrap 5 dengan Authentication</span>
+              <span>Bootstrap 5 dengan Authentication</span>
             </summary>
             <div class="mt-4 space-y-2">
               <CodeBlock :code="bootstrapSetup" language="bash" />
@@ -84,7 +84,7 @@
           <!-- Minimal Setup -->
           <details class="border rounded-lg p-4 hover:shadow-md transition cursor-pointer">
             <summary class="font-bold text-gray-900 flex items-center gap-2">
-              <span>⚙️ Minimal Setup (No Docker, No Auth)</span>
+              <span>Minimal Setup (No Docker, No Auth)</span>
             </summary>
             <div class="mt-4 space-y-2">
               <CodeBlock :code="minimalSetup" language="bash" />
@@ -95,7 +95,7 @@
 
       <!-- Interactive Mode -->
       <section class="bg-purple-50 border border-purple-200 rounded-lg p-6">
-        <h2 class="text-2xl font-bold mb-4 text-gray-900">🎯 Interactive Mode</h2>
+        <h2 class="text-2xl font-bold mb-4 text-gray-900">Interactive Mode</h2>
         <p class="text-gray-700 mb-4">Lebih suka dialog step-by-step? Jalankan tanpa flags:</p>
         
         <CodeBlock code="php artisan bangkah:create" language="bash" />
@@ -107,7 +107,7 @@
 
       <!-- Database Setup -->
       <section>
-        <h2 class="text-2xl font-bold mb-4 text-gray-900">💾 Setup Database</h2>
+        <h2 class="text-2xl font-bold mb-4 text-gray-900">Setup Database</h2>
         
         <CodeBlock :code="migrateCmd" language="bash" />
 
@@ -120,7 +120,7 @@
 
       <!-- Next Steps -->
       <section class="bg-gradient-to-r from-blue-50 to-purple-50 border border-blue-200 rounded-lg p-6">
-        <h2 class="text-2xl font-bold mb-4 text-gray-900">📚 Next Steps</h2>
+        <h2 class="text-2xl font-bold mb-4 text-gray-900">Next Steps</h2>
         <ol class="space-y-3 text-gray-700">
           <li class="flex gap-3"><span class="font-bold text-blue-600">1.</span> <a href="/docs/usage" class="text-blue-600 hover:underline">Lihat Usage Guide</a> untuk semua command options</li>
           <li class="flex gap-3"><span class="font-bold text-blue-600">2.</span> <a href="/docs/examples" class="text-blue-600 hover:underline">Explore Examples</a> untuk berbagai use cases</li>
@@ -131,7 +131,7 @@
 
       <!-- Tips -->
       <section class="border-l-4 border-yellow-500 bg-yellow-50 p-6 rounded-r-lg">
-        <h3 class="font-bold text-yellow-900 mb-3">💡 Tips & Tricks</h3>
+        <h3 class="font-bold text-yellow-900 mb-3">Tips & Tricks</h3>
         <ul class="space-y-2 text-sm text-gray-700">
           <li>• Gunakan <code class="bg-white px-2 py-1 rounded">--yes</code> flag untuk skip prompts di CI/CD pipelines</li>
           <li>• Setiap run akan backup routes file otomatis sebelum replace</li>

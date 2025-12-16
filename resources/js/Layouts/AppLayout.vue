@@ -5,28 +5,51 @@
       <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
         <!-- Logo & Branding -->
         <div class="flex items-center gap-3">
-          <div class="flex items-center gap-2">
-            <div class="w-8 h-8 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-              <span class="text-white font-bold text-sm">🎯</span>
-            </div>
-            <span class="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Bangkah
-            </span>
-          </div>
-          <span class="text-gray-400">•</span>
-          <span class="text-sm text-gray-600">Laravel Starter Kit</span>
+          <!-- Logo SVG -->
+          <svg class="w-10 h-10" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Outer Circle -->
+            <circle cx="20" cy="20" r="19" stroke="url(#grad1)" stroke-width="2"/>
+            
+            <!-- Arrow pointing up-right (launching concept) -->
+            <g transform="translate(20, 20)">
+              <!-- Left vertical bar -->
+              <rect x="-3" y="-8" width="2" height="12" fill="url(#grad2)" rx="1"/>
+              <!-- Right vertical bar -->
+              <rect x="1" y="-4" width="2" height="12" fill="url(#grad2)" rx="1"/>
+              <!-- Top horizontal bar -->
+              <rect x="-6" y="-7" width="14" height="2" fill="url(#grad2)" rx="1"/>
+              <!-- Arrow tip -->
+              <path d="M 8 -7 L 10 -5 L 7 -2" fill="url(#grad2)"/>
+            </g>
+            
+            <!-- Gradient definitions -->
+            <defs>
+              <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+              </linearGradient>
+              <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+              </linearGradient>
+            </defs>
+          </svg>
+          
+          <span class="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            Bangkah
+          </span>
         </div>
 
         <!-- Navigation -->
         <nav class="hidden md:flex items-center gap-8">
           <a href="/" class="text-gray-700 hover:text-blue-600 transition font-medium text-sm">
-            🏠 Beranda
+             Beranda
           </a>
           <a href="/docs/about" class="text-gray-700 hover:text-blue-600 transition font-medium text-sm">
-            📚 Dokumentasi
+             Dokumentasi
           </a>
           <a href="/docs/features" class="text-gray-700 hover:text-blue-600 transition font-medium text-sm">
-            ✨ Fitur
+             Fitur
           </a>
           <a 
             href="https://github.com/Bangkah/bangkah-launcher" 
@@ -60,20 +83,20 @@
         <div v-if="mobileMenuOpen" class="md:hidden border-t bg-white py-3 px-4">
           <nav class="flex flex-col gap-3">
             <a href="/" @click="mobileMenuOpen = false" class="text-gray-700 hover:text-blue-600 transition font-medium">
-              🏠 Beranda
+               Beranda
             </a>
             <a href="/docs/about" @click="mobileMenuOpen = false" class="text-gray-700 hover:text-blue-600 transition font-medium">
-              📚 Dokumentasi
+               Dokumentasi
             </a>
             <a href="/docs/features" @click="mobileMenuOpen = false" class="text-gray-700 hover:text-blue-600 transition font-medium">
-              ✨ Fitur
+               Fitur
             </a>
             <a 
               href="https://github.com/Bangkah/bangkah-launcher" 
               target="_blank"
               class="text-gray-700 hover:text-blue-600 transition font-medium"
             >
-              🔗 GitHub
+               GitHub
             </a>
           </nav>
         </div>
@@ -91,7 +114,7 @@
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <!-- About Column -->
           <div>
-            <h3 class="font-bold text-gray-900 mb-4">🎯 Bangkah</h3>
+            <h3 class="font-bold text-gray-900 mb-4"> Bangkah</h3>
             <p class="text-sm text-gray-600">
               Modern Laravel starter kit untuk mempercepat development dengan Docker, Nginx, dan Frontend framework pilihan.
             </p>

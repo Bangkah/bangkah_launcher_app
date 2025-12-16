@@ -1,7 +1,7 @@
 <template>
   <DocsLayout page-title="Docker" current-slug="docker">
     <div class="prose prose-sm max-w-none">
-      <h1 class="text-4xl font-bold mb-6">🐳 Docker Configuration</h1>
+      <h1 class="text-4xl font-bold mb-6">Docker Configuration</h1>
 
       <div class="mb-8 p-6 bg-blue-50 border-l-4 border-blue-500 rounded-r-lg">
         <p class="text-gray-700">
@@ -12,9 +12,9 @@
       <h2 class="text-2xl font-bold mb-4">Generated Files</h2>
 
       <ul class="space-y-2 mb-8 ml-4">
-        <li class="flex gap-2"><span class="text-blue-500">📄</span> <code>Dockerfile</code> - PHP 8.2-FPM container</li>
-        <li class="flex gap-2"><span class="text-blue-500">📄</span> <code>docker-compose.yml</code> - Multi-container orchestration</li>
-        <li class="flex gap-2"><span class="text-blue-500">📄</span> <code>docker/nginx/default.conf</code> - Nginx configuration</li>
+        <li class="flex gap-2"><span class="text-blue-500"></span> <code>Dockerfile</code> - PHP 8.2-FPM container</li>
+        <li class="flex gap-2"><span class="text-blue-500"></span> <code>docker-compose.yml</code> - Multi-container orchestration</li>
+        <li class="flex gap-2"><span class="text-blue-500"></span> <code>docker/nginx/default.conf</code> - Nginx configuration</li>
       </ul>
 
       <h2 class="text-2xl font-bold mb-4">Common Commands</h2>

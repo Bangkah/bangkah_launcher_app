@@ -1,16 +1,16 @@
 <template>
   <DocsLayout page-title="Features" current-slug="features">
     <div class="prose prose-sm max-w-none">
-      <h1 class="text-4xl font-bold mb-6">✨ Features</h1>
+      <h1 class="text-4xl font-bold mb-6">Features</h1>
 
       <div class="space-y-6">
         <div class="group border-l-4 border-blue-500 bg-blue-50 p-6 rounded-r-lg hover:shadow-md transition-all duration-300">
-          <h2 class="text-2xl font-bold text-blue-900 mb-2">🚀 Zero Configuration</h2>
+          <h2 class="text-2xl font-bold text-blue-900 mb-2">Zero Configuration</h2>
           <p class="text-gray-700">CLI interaktif yang memandu step-by-step. Tidak perlu memorize flags atau options!</p>
         </div>
 
         <div class="group border-l-4 border-purple-500 bg-purple-50 p-6 rounded-r-lg hover:shadow-md transition-all duration-300">
-          <h2 class="text-2xl font-bold text-purple-900 mb-2">🐳 Docker Ready</h2>
+          <h2 class="text-2xl font-bold text-purple-900 mb-2">Docker Ready</h2>
           <p class="text-gray-700 mb-3">Dockerfile + docker-compose.yml generated otomatis dengan:</p>
           <ul class="space-y-2 ml-4">
             <li class="flex gap-2"><span class="text-purple-500">•</span> PHP 8.2-FPM optimized</li>
@@ -32,7 +32,7 @@
         </div>
 
         <div class="group border-l-4 border-orange-500 bg-orange-50 p-6 rounded-r-lg hover:shadow-md transition-all duration-300">
-          <h2 class="text-2xl font-bold text-orange-900 mb-2">📦 Multiple Templates</h2>
+          <h2 class="text-2xl font-bold text-orange-900 mb-2">Multiple Templates</h2>
           <div class="grid md:grid-cols-2 gap-4 mt-4">
             <div class="bg-white p-4 rounded border border-orange-200">
               <h3 class="font-semibold text-orange-900 mb-2">Web Template</h3>
@@ -46,7 +46,7 @@
         </div>
 
         <div class="group border-l-4 border-pink-500 bg-pink-50 p-6 rounded-r-lg hover:shadow-md transition-all duration-300">
-          <h2 class="text-2xl font-bold text-pink-900 mb-2">🎨 Frontend Flexibility</h2>
+          <h2 class="text-2xl font-bold text-pink-900 mb-2">Frontend Flexibility</h2>
           <p class="text-gray-700 mb-3">Pilih framework sesuai preferensi:</p>
           <div class="grid md:grid-cols-3 gap-3 ml-4">
             <div class="bg-white p-3 rounded border border-pink-200 text-sm">
@@ -65,7 +65,7 @@
         </div>
 
         <div class="group border-l-4 border-red-500 bg-red-50 p-6 rounded-r-lg hover:shadow-md transition-all duration-300">
-          <h2 class="text-2xl font-bold text-red-900 mb-2">🔐 Auth Scaffolding</h2>
+          <h2 class="text-2xl font-bold text-red-900 mb-2"> Auth Scaffolding</h2>
           <p class="text-gray-700 mb-3">Lengkap dengan login, register, password reset, email verification:</p>
           <div class="grid md:grid-cols-2 gap-4 ml-4">
             <div class="bg-white p-3 rounded border border-red-200 text-sm">
@@ -90,7 +90,7 @@
         </div>
 
         <div class="group border-l-4 border-indigo-500 bg-indigo-50 p-6 rounded-r-lg hover:shadow-md transition-all duration-300">
-          <h2 class="text-2xl font-bold text-indigo-900 mb-2">⚡ Auto Build</h2>
+          <h2 class="text-2xl font-bold text-indigo-900 mb-2">Auto Build</h2>
           <p class="text-gray-700">Frontend assets di-build otomatis setelah:</p>
           <ul class="space-y-2 ml-4 mt-3">
             <li class="flex gap-2"><span class="text-indigo-500">•</span> NPM package installation</li>

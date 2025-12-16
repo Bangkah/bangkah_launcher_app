@@ -1,7 +1,7 @@
 <template>
   <DocsLayout page-title="Development" current-slug="development">
     <div class="prose prose-sm max-w-none">
-      <h1 class="text-4xl font-bold mb-6">🛠️ Development</h1>
+      <h1 class="text-4xl font-bold mb-6">Development</h1>
 
       <h2 class="text-2xl font-bold mb-4">Local Development</h2>
 

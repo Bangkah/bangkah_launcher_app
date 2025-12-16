@@ -1,7 +1,7 @@
 <template>
   <DocsLayout page-title="Contributing" current-slug="contributing">
     <div class="prose prose-sm max-w-none">
-      <h1 class="text-4xl font-bold mb-6">🤝 Contributing</h1>
+      <h1 class="text-4xl font-bold mb-6">Contributing</h1>
 
       <p class="text-lg text-gray-700 mb-8">
         Kami welcome contributions! Baik bug reports, features, PRs, atau docs improvements.
@@ -11,22 +11,22 @@
 
       <div class="grid md:grid-cols-2 gap-4 mb-8">
         <div class="border-l-4 border-red-500 bg-red-50 p-4 rounded-r-lg">
-          <h3 class="font-bold text-red-900 mb-2">🐛 Report Bugs</h3>
+          <h3 class="font-bold text-red-900 mb-2"> Report Bugs</h3>
           <p class="text-sm text-gray-700">Open issue dengan detailed info & steps to reproduce</p>
         </div>
 
         <div class="border-l-4 border-blue-500 bg-blue-50 p-4 rounded-r-lg">
-          <h3 class="font-bold text-blue-900 mb-2">✨ Suggest Features</h3>
+          <h3 class="font-bold text-blue-900 mb-2"> Suggest Features</h3>
           <p class="text-sm text-gray-700">Share ideas via GitHub Issues</p>
         </div>
 
         <div class="border-l-4 border-green-500 bg-green-50 p-4 rounded-r-lg">
-          <h3 class="font-bold text-green-900 mb-2">📝 Improve Docs</h3>
+          <h3 class="font-bold text-green-900 mb-2"> Improve Docs</h3>
           <p class="text-sm text-gray-700">Fix typos, clarify instructions, add examples</p>
         </div>
 
         <div class="border-l-4 border-purple-500 bg-purple-50 p-4 rounded-r-lg">
-          <h3 class="font-bold text-purple-900 mb-2">💻 Submit PRs</h3>
+          <h3 class="font-bold text-purple-900 mb-2"> Submit PRs</h3>
           <p class="text-sm text-gray-700">Fix bugs atau implement features</p>
         </div>
       </div>

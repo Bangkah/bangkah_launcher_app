@@ -1,7 +1,7 @@
 <template>
   <DocsLayout page-title="Advanced Usage" current-slug="advanced-usage">
     <div class="prose prose-sm max-w-none">
-      <h1 class="text-4xl font-bold mb-6">🚀 Advanced Usage</h1>
+      <h1 class="text-4xl font-bold mb-6">Advanced Usage</h1>
 
       <h2 class="text-2xl font-bold mb-4">Custom Templates</h2>
 
@@ -31,7 +31,7 @@
       <CodeBlock :code="programmaticUsage" />
 
       <div class="bg-green-50 border border-green-200 rounded-lg p-4 mt-8">
-        <p class="font-semibold text-green-900 mb-2">💡 Advanced Tips</p>
+        <p class="font-semibold text-green-900 mb-2">Advanced Tips</p>
         <ul class="space-y-2 ml-4 text-gray-700">
           <li>• Mix multiple templates dengan artisan commands</li>
           <li>• Pipeline custom logic dalam services</li>

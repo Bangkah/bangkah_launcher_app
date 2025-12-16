@@ -1,7 +1,7 @@
 <template>
   <DocsLayout page-title="Usage" current-slug="usage">
     <div class="prose prose-sm max-w-none">
-      <h1 class="text-4xl font-bold mb-6">📖 Usage</h1>
+      <h1 class="text-4xl font-bold mb-6">Usage</h1>
 
       <h2 class="text-2xl font-bold mb-4">Interactive Mode</h2>
       
@@ -12,7 +12,7 @@
       <div class="bg-blue-50 border border-blue-200 rounded-lg p-4 mt-4 mb-8">
         <p class="text-gray-700 mb-3"><strong>Interactive Flow:</strong></p>
         <pre class="bg-white p-3 rounded text-xs border border-blue-200"><code>┌──────────────────────────────────────────┐
-│  🎯 Bangkah Starter Kit                  │
+│  Bangkah Starter Kit                  │
 └──────────────────────────────────────────┘
 
 ❯ Pilih template project:

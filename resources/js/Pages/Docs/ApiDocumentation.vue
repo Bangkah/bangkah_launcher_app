@@ -1,7 +1,7 @@
 <template>
   <DocsLayout page-title="API Documentation" current-slug="api-documentation">
     <div class="prose prose-sm max-w-none">
-      <h1 class="text-4xl font-bold mb-6">🔌 API Documentation</h1>
+      <h1 class="text-4xl font-bold mb-6">API Documentation</h1>
 
       <p class="text-gray-600 mb-8">Dokumentasi lengkap untuk API endpoints yang dihasilkan Bangkah, termasuk request/response examples dan best practices.</p>
 
@@ -73,7 +73,7 @@
 
       <!-- API Response Format -->
       <div class="mb-8 border-l-4 border-green-500 bg-green-50 p-6 rounded-r-lg">
-        <h2 class="text-2xl font-bold text-green-900 mb-4">📐 Response Format</h2>
+        <h2 class="text-2xl font-bold text-green-900 mb-4"> Response Format</h2>
         
         <h3 class="font-bold text-green-900 mt-4 mb-3">Success Response Structure:</h3>
         <CodeBlock :code="successResponseStructure" />
@@ -84,7 +84,7 @@
 
       <!-- HTTP Status Codes -->
       <div class="mb-8 border-l-4 border-orange-500 bg-orange-50 p-6 rounded-r-lg">
-        <h2 class="text-2xl font-bold text-orange-900 mb-4">📊 HTTP Status Codes</h2>
+        <h2 class="text-2xl font-bold text-orange-900 mb-4"> HTTP Status Codes</h2>
         
         <div class="space-y-3">
           <div class="bg-white p-3 rounded border border-gray-200">
@@ -164,7 +164,7 @@
 
       <!-- Pagination -->
       <div class="mb-8 border-l-4 border-indigo-500 bg-indigo-50 p-6 rounded-r-lg">
-        <h2 class="text-2xl font-bold text-indigo-900 mb-4">📑 Pagination</h2>
+        <h2 class="text-2xl font-bold text-indigo-900 mb-4"> Pagination</h2>
         
         <h3 class="font-bold text-indigo-900 mt-4 mb-3">Paginated List Response:</h3>
         <CodeBlock :code="paginatedResponse" />
@@ -197,7 +197,7 @@
 
       <!-- Authentication -->
       <div class="mt-12 p-6 bg-gray-50 rounded-lg border">
-        <h2 class="text-2xl font-bold mb-4">🔐 API Authentication</h2>
+        <h2 class="text-2xl font-bold mb-4"> API Authentication</h2>
         
         <p class="text-gray-700 mb-4">Untuk endpoints yang memerlukan authentication, gunakan Bearer token:</p>
 
