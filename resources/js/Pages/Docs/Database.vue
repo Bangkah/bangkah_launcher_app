@@ -18,12 +18,12 @@
 
       <h2 class="text-2xl font-bold mb-4">PostgreSQL Configuration</h2>
       
-      <CodeBlock code="DB_CONNECTION=pgsql
-DB_HOST=pgsql # or 127.0.0.1 without Docker
-DB_PORT=5432
-DB_DATABASE=laravel
-DB_USERNAME=sail
-DB_PASSWORD=passw:code="postgresConfignced features (JSON, Full-Text Search)</li>
+      <CodeBlock :code="postgresConfig" />
+
+      <div class="bg-green-50 border border-green-200 rounded-lg p-4 mt-4 mb-8">
+        <p class="font-semibold text-green-900 mb-2">✓ PostgreSQL 16 Features:</p>
+        <ul class="space-y-1 ml-4 text-sm">
+          <li>• Advanced features (JSON, Full-Text Search)</li>
           <li>• ACID compliance</li>
           <li>• Persistent volume (pgsql_data)</li>
         </ul>
@@ -39,9 +39,7 @@ DB_PASSWORD=passw:code="postgresConfignced features (JSON, Full-Text Search)</li
 
         <div class="border-l-4 border-purple-500 bg-purple-50 p-4 rounded-r-lg">
           <p class="text-sm font-semibold mb-2">Seed database</p>
-          <CodeBlock code="php artisan make:seeder UserSeeder
-php artisan db:seed --class=UserSeeder
-php artisan db:seed" />
+          <CodeBlock :code="seedCommands" />
         </div>
       </div>
 
@@ -49,7 +47,9 @@ php artisan db:seed" />
       
       <div class="grid md:grid-cols-2 gap-4">
         <div class="border rounded-lg p-4">
-          <h3 class=":code="seedCommandshpMyAdmin</li>
+          <h3 class="font-bold mb-2">MySQL</h3>
+          <ul class="space-y-1 text-sm ml-3">
+            <li>• phpMyAdmin</li>
             <li>• MySQL Workbench</li>
             <li>• TablePlus</li>
           </ul>

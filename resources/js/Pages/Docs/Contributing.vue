@@ -33,25 +33,7 @@
 
       <h2 class="text-2xl font-bold mb-4">Contribution Workflow</h2>
 
-      <CodeBlock code="# 1. Fork & clone
-git clone https://github.com/your-fork/bangkah-launcher.git
-cd bangkah-launcher
-
-# 2. Create feature branch
-git checkout -b feature/amazing-feature
-
-# 3. Make changes & add tests
-# Follow PSR-12 coding standards
-
-# 4. Run tests
-./vendor/bin/phpunit
-
-# 5. Commit & push
-git commit -m \"Add amazing feature\"
-git push origin feature/amazing-feature
-
-# 6. Open Pull Request on GitHub
-# Describe changes, link related issues" />
+      <CodeBlock :code="workflowCode" />
 
       <h2 class="text-2xl font-bold mb-4 mt-8">Code Standards</h2>
 
@@ -90,4 +72,24 @@ git push origin feature/amazing-feature
 <script setup>
 import DocsLayout from '../../Layouts/DocsLayout.vue'
 import CodeBlock from '../../Components/CodeBlock.vue'
+
+const workflowCode = `# 1. Fork & clone
+git clone https://github.com/your-fork/bangkah-launcher.git
+cd bangkah-launcher
+
+# 2. Create feature branch
+git checkout -b feature/amazing-feature
+
+# 3. Make changes & add tests
+# Follow PSR-12 coding standards
+
+# 4. Run tests
+./vendor/bin/phpunit
+
+# 5. Commit & push
+git commit -m "Add amazing feature"
+git push origin feature/amazing-feature
+
+# 6. Open Pull Request on GitHub
+# Describe changes, link related issues`
 </script>

@@ -12,7 +12,7 @@ class DocsController extends Controller
             'about', 'features', 'requirements', 'installation', 'quick-start',
             'usage', 'examples', 'templates', 'docker', 'database',
             'authentication', 'frontend', 'deployment', 'troubleshooting', 'faq',
-            'development', 'advanced-usage', 'contributing'
+            'development', 'advanced-usage', 'contributing', 'changelog', 'api-documentation'
         ];
 
         if (!in_array($slug, $pages)) {

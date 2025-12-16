@@ -39,11 +39,7 @@
       <div class="space-y-3 mb-8">
         <div class="border-l-4 border-blue-500 bg-blue-50 p-4 rounded-r-lg">
           <p class="text-sm font-semibold mb-2">All tests</p>
-          <CodeBlock code="./vendor/bin/phpunit" />
-        </div>
-
-        <div class="border-l-4 border-green-500 bg-green-50 p-4 rounded-r-lg">
-          <p class="t:code="testAll" />
+          <CodeBlock :code="testAll" />
         </div>
 
         <div class="border-l-4 border-green-500 bg-green-50 p-4 rounded-r-lg">
@@ -53,7 +49,11 @@
 
         <div class="border-l-4 border-purple-500 bg-purple-50 p-4 rounded-r-lg">
           <p class="text-sm font-semibold mb-2">With coverage</p>
-          <CodeBlock :code="testC>
+          <CodeBlock :code="testCoverage" />
+        </div>
+      </div>
+
+      <h2 class="text-2xl font-bold mb-4">Code Style (PSR-12)</h2>
 
       <div class="space-y-3">
         <div class="border-l-4 border-orange-500 bg-orange-50 p-4 rounded-r-lg">

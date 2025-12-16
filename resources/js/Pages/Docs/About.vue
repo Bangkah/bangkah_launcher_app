@@ -80,7 +80,7 @@
 </template>
 
 <script setup>
-import DocsLayout from '../Layouts/DocsLayout.vue'
+import DocsLayout from '../../Layouts/DocsLayout.vue'
 </script>
 
 <style scoped>

@@ -43,31 +43,6 @@
   </DocsLayout>
 </template>
 
-      <h2 class="text-2xl font-bold mb-4">Extending Services</h2>
-
-      <p class="text-gray-700 mb-4">Extend services dalam <code>AppServiceProvider</code>:</p>
-
-      <CodeBlock :code="customService" />
-
-      <h2 class="text-2xl font-bold mb-4 mt-8">Programmatic Usage</h2>
-
-      <p class="text-gray-700 mb-4">Use services dari container:</p>
-
-      <CodeBlock code="use Bangkah\\Starter\\Services\\TemplateService;
-use Bangkah\\Starter\\Services\\DockerService;
-
-\$templateService = app(TemplateService::class);
-\$dockerService = app(DockerService::class);
-
-\$templateService->applyWeb(base_path());
-\$dockerService->generateDockerFiles(base_path(), 'mysql', true);" />
-
-      <div class="bg-green-50 border border-green-200 rounded-lg p-4 mt-8">
-        <p class="font-semibold text-green-900 mb-2">💡 Advanced Tips</p>
-        <ul class:code="programmaticUsage
-  </DocsLayout>
-</template>
-
 <script setup>
 import DocsLayout from '../../Layouts/DocsLayout.vue'
 import CodeBlock from '../../Components/CodeBlock.vue'
