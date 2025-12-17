@@ -1,19 +1,10 @@
-# Ini adalah model pendanaan yang didukung
 
 github: ['Bangkah']
 patreon: mdhiyaulatha
 ko_fi: mdhiyaulatha
 thanks_dev: Bangkah
 
-open_collective: # Dibiarkan kosong
-tidelift: # Dibiarkan kosong
-community_bridge: # Dibiarkan kosong
-liberapay: # Dibiarkan kosong
-issuehunt: # Dibiarkan kosong
-lfx_crowdfunding: # Dibiarkan kosong
-polar: # Dibiarkan kosong
-buy_me_a_coffee: # Dibiarkan kosong
+
 
 custom: 
-  # Link produk utama Anda
   - https://github.com/Bangkah/bangkah_launcher_app
