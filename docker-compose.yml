@@ -1,34 +1,32 @@
 
 services:
   app:
-    build: .
-    container_name: bangkah_app
-    restart: unless-stopped
+    build:
+      context: .
+    container_name: laravel-app
+    working_dir: /var/www/html
     env_file:
       - .env
     volumes:
       - ./:/var/www/html
-      - ./storage:/var/www/html/storage
-      - ./public:/var/www/html/public
+    expose:
+      - 9000
+    command: php-fpm
     networks:
       - bangkahnet
 
   nginx:
     image: nginx:1.25-alpine
-    container_name: bangkah_nginx
-    restart: unless-stopped
+    container_name: laravel-nginx
     ports:
       - "8080:80"
     volumes:
-      - ./:/var/www/html
+      - ./:/var/www/html:ro
       - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
-      - ./public:/var/www/html/public
     depends_on:
       - app
     networks:
       - bangkahnet
-
-
 
 networks:
   bangkahnet:
